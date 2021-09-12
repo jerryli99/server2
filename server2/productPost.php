@@ -146,8 +146,7 @@
 	//	echo "in the aws s3 area start";
                 //this section is to store the images to the cloud and image name to Database
                 $bucketName = 'test1-1';
-                $IAM_KEY = 'AKIAZXTHLVQD7OD6S4VY';
-		$IAM_SECRET = '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';
+//IAM HERE
 		//CONNECT TO AWS S3
                 try{
                     $s3 = S3Client::factory(
